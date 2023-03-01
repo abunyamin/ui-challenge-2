@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Source+Sans+Pro&family=Inter&display=swap');
+
+:root {
+  --primary: #edfcfd;
+  --secondary: #00bac7;
+  --linear-a: #2f364b;
+  --linear-b: #262b3d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.row-1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.row-2 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

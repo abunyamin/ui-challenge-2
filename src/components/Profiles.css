@@ -1,0 +1,128 @@
+/* Profiles */
+
+.profiles {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 100px 9%;
+  column-gap: 30px;
+}
+
+.profiles .row-1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.profiles .row-1 .profile__image {
+  width: 100%;
+}
+
+.bg-profile__image {
+  clip-path: polygon(0 5%, 90% 0, 100% 90%, 9% 100%);
+  background-color: #272d3e;
+  width: 100%;
+}
+
+.profiles .row-1 .profile__image img {
+  max-width: 100%;
+  box-shadow: 0 60 30 #1d2b3f;
+  clip-path: polygon(9% 3%, 99% 0, 90% 94%, 0 100%);
+}
+
+.profiles .row-2 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.profiles .row-2 .text--title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profiles .row-2 .text--title span.line-title--text {
+  background-color: var(--secondary);
+  width: 30px;
+  height: 2px;
+}
+
+.profiles .row-2 .text--title .text-title--main {
+  color: var(--secondary);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.profiles .row-2 .text--title-2 h2 {
+  font-size: 32px;
+  line-height: 44px;
+  color: #272d3ecc;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.profiles .row-2 .text--main {
+  font-size: 18px;
+  line-height: 32px;
+  color: #272d3ecc;
+  margin-bottom: 40px;
+}
+
+.profile__image {
+  position: relative;
+  /* transform: skew(-5deg, -5deg); */
+}
+
+.profile__image--name {
+  background-color: var(--secondary);
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-radius: 5px;
+  max-width: 300px;
+  min-width: 240px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.profile__image--name span:nth-child(1) {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.profile__image--name span:nth-child(2) {
+  color: #ffffffcc;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .profiles {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    row-gap: 40px;
+  }
+
+  .profiles .row-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  .profiles .row-2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+  }
+
+  .profile__image--name {
+    bottom: 20px;
+    left: 0;
+  }
+}

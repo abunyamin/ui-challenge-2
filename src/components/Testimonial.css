@@ -1,0 +1,191 @@
+/* Testomonial */
+
+.testimoni {
+  min-height: fit-content;
+  background-color: var(--primary);
+  padding: 100px 0;
+}
+
+.testimoni__text {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 0 9%;
+}
+
+.testimoni__text--row-1 {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+.testimoni__text .text--main {
+  grid-column-start: 7;
+  grid-column-end: 12;
+}
+
+.testimoni__text .testimoni__text--row-1 .text--title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.testimoni__text .testimoni__text--row-1 .text--title span.line-title--text {
+  background-color: var(--secondary);
+  width: 30px;
+  height: 2px;
+}
+
+.testimoni__text .testimoni__text--row-1 .text--title .text-title--main {
+  color: var(--secondary);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.testimoni__text .testimoni__text--row-1 .text--title-2 h2 {
+  font-size: 32px;
+  line-height: 44px;
+  color: #272d3ecc;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.testimoni__text .text--main {
+  font-size: 18px;
+  line-height: 32px;
+  color: #272d3ecc;
+  margin-bottom: 68px;
+}
+
+.testimoni__cards {
+  position: relative;
+  padding: 0 5.4%;
+}
+
+.testimoni__card {
+  max-width: 280px;
+  min-width: 240px;
+  height: 330px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 30px 60px 0 #00bac714;
+  border-radius: 10px;
+}
+
+.testimoni__caption {
+  line-height: 32px;
+  color: #272d3e;
+  margin-bottom: 30px;
+  height: 200px;
+  overflow: auto;
+}
+
+.testimoni__profile {
+  display: flex;
+  gap: 16px;
+}
+
+.testimoni__profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.testimoni__profile--name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.testimoni__profile--name span:nth-child(1) {
+  line-height: 16px;
+  font-weight: 500;
+  color: #272d3e;
+}
+
+.testimoni__profile--name span:nth-child(2) {
+  line-height: 14px;
+  font-weight: 500;
+  color: #272d3ecc;
+}
+
+.testimoni__button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 0 calc(5.4% - 25px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.swiper-container {
+  padding: 100px 0;
+}
+
+.swiper-wrapper {
+  position: relative;
+  padding: 0 calc(5.4%);
+}
+
+.swiper-slide {
+  align-items: stretch;
+}
+
+.testimoni__button--left,
+.testimoni__button--right {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  box-shadow: 0 15px 30px 0 #00bac74d;
+  color: #ffffff;
+  font-size: 4em;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.testimoni__button--left svg,
+.testimoni__button--right svg {
+  width: 24px;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .testimoni__text {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    row-gap: 40px;
+  }
+
+  .testimoni__text--row-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  .testimoni__text .text--main {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+  }
+
+  .testimoni__card {
+    margin-inline: auto;
+  }
+
+  .swiper-container {
+    justify-content: center;
+  }
+
+  .swiper-pagination {
+    display: block;
+  }
+}

@@ -1,0 +1,130 @@
+/* Section 2 */
+
+.section-2 {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 100px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 84px;
+  box-sizing: border-box;
+}
+
+.section-2 .text-1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.section-2 .text-1 .row-1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.section-2 .text-1 .row-2 {
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.section-2 .text-1 .row-1 .text--title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-2 .text-1 .row-1 .line-title--text {
+  background-color: var(--secondary);
+  width: 30px;
+  height: 2px;
+}
+
+.section-2 .text-1 .row-1 .text--title {
+  color: var(--secondary);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.section-2__description {
+  color: #272d3e;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.section-2 .text-1 .row-1 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.section-2 .text-1 .row-2 {
+  color: #272d3ecc;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 16px;
+}
+
+.card {
+  grid-column: span 4;
+}
+
+.card__image {
+  margin-bottom: 10px;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card__description {
+  line-height: 32px;
+  color: #272d3ecc;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .section-2 .text-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    gap: 30px;
+  }
+
+  .section-2 .text-1 .row-1 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+  }
+
+  .section-2 .text-1 .row-2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+
+  .card {
+    grid-column: span 5;
+  }
+}
