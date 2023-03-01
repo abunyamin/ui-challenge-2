@@ -7,16 +7,16 @@ import react from '@vitejs/plugin-react'
 // })
 
 export default {
-  server: {
-    // Menonaktifkan Permissions Policy header
-    host: '0.0.0.0',
-    fs: {
-      strict: false
-    }
-  },
   build: {
-    // Menambahkan public URL ke output build Anda
-    base: '/ay-challenge-2/'
-  }
-}
-
+    outDir: 'dist',
+    assetsDir: 'assets',
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+  },
+  base: '/ui-challenge-2/',
+};
