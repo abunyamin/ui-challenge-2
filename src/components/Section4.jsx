@@ -78,7 +78,7 @@ const Section4 = ({viewportSize}) => {
             data-aos-delay="800 "
           >
             <img
-              src="/assets/book-tailwind-2.png"
+              src="assets/book-tailwind-2.png"
               alt="Image Section 4"
             />
             <div className="box__book-chapter">

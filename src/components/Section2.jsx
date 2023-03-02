@@ -41,17 +41,17 @@ const Section2 = ({viewportSize}) => {
 const Cards = ({viewportSize}) => {
   const cards = [
     {
-      img: '/assets/code-1.png',
+      img: 'assets/code-1.png',
       title: 'Utility-First Framework',
       desc: 'Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.',
     },
     {
-      img: '/assets/code-2.png',
+      img: 'assets/code-2.png',
       title: 'Tailwind JIT Engine',
       desc: 'JIT engine akan men-generate utility-class yang kita gunakan saja. Ini akan membuat pengalaman pengembangan semakin baik.',
     },
     {
-      img: '/assets/code-3.png',
+      img: 'assets/code-3.png',
       title: 'Unopinionated-Framework',
       desc: 'Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik.',
     },

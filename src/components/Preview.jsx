@@ -31,7 +31,7 @@ const Review = () => {
         <div className="preview__ebook">
           <div className="row-1" data-aos="fade-right">
             <img
-              src="/assets/book-tailwind-3.png"
+              src="assets/book-tailwind-3.png"
               alt="preview Image"
             />
           </div>

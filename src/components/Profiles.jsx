@@ -9,7 +9,7 @@ const Profiles = () => {
           <div className="profile__image" data-aos="flip-right">
             <div className="bg-profile__image"></div>
             <img
-              src="/assets/profile.jpg"
+              src="assets/profile.jpg"
               alt="Profile Images"
             />
             <div className="profile__image--name">

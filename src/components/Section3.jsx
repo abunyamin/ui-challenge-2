@@ -25,7 +25,7 @@ const Section3 = ({viewportSize}) => {
           >
             <div className="mini-profile__image">
               <img
-                src="/assets/profile.jpg"
+                src="assets/profile.jpg"
                 alt="profile"
               />
             </div>

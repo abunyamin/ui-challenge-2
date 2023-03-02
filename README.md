@@ -31,7 +31,7 @@ This is a landing page project built using ReactJS with pure CSS and utilizing s
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://abunyamin.my.id)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abunyamin)
-[![twitter](https://img.shields.io/badge/instagram-FD1D1D?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/abunyamin)
+[![twitter](https://img.shields.io/badge/instagram-FD1D1D?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/abun_yamin)
 
 ## Screenshots by Desktop
 

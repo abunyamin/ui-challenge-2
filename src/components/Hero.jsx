@@ -46,49 +46,49 @@ const Hero = ({viewportSize}) => {
             <div className="tech-list">
               <div className="image-item">
                 <img
-                  src="/assets/icon-html.png"
+                  src="assets/icon-html.png"
                   alt="HTML ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-css.png"
+                  src="assets/icon-css.png"
                   alt="CSS ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-firefox.png"
+                  src="assets/icon-firefox.png"
                   alt="FIFEFOX ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-sublime.png"
+                  src="assets/icon-sublime.png"
                   alt="SUBLIME ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-terminal.png"
+                  src="assets/icon-terminal.png"
                   alt="TERMINAL ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-js.png"
+                  src="assets/icon-js.png"
                   alt="NODEJS ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-cat.png"
+                  src="assets/icon-cat.png"
                   alt="CAT ICON"
                 />
               </div>
               <div className="image-item">
                 <img
-                  src="/assets/icon-npm.png"
+                  src="assets/icon-npm.png"
                   alt="NPM ICON"
                 />
               </div>
@@ -97,7 +97,7 @@ const Hero = ({viewportSize}) => {
         </div>
         <div className="row-2">
           <img
-            src="/assets/hero.png"
+            src="assets/hero.png"
             alt="Hero Images"
             data-aos="fade-left"
             data-aos-duration="1000"

@@ -13,7 +13,7 @@ const Section5 = ({viewportSize}) => {
       <div className="section-5 grid-12">
         <div className="row-1">
           <img
-            src="/assets/ui.png"
+            src="assets/ui.png"
             alt="Image Section 5"
             data-aos={viewportSize.width > 767 ? 'fade-right' : 'fade-up'}
           />

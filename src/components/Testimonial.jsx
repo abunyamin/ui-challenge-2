@@ -45,7 +45,7 @@ const Cards = ({viewportSize}) => {
       caption:
         '“Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”',
       image:
-        '/assets/profile-1.webp',
+        'assets/profile-1.webp',
     },
     {
       name: 'Dedik Sugiharto',
@@ -53,7 +53,7 @@ const Cards = ({viewportSize}) => {
       caption:
         '“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami taildwindcss. Isinya cukup lengkap dan detail.”',
       image:
-        '/assets/profile-2.webp',
+        'assets/profile-2.webp',
     },
     {
       name: 'Lutfi Hanafiah Ramadhan',
@@ -61,7 +61,7 @@ const Cards = ({viewportSize}) => {
       caption:
         '“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”',
       image:
-        '/assets/profile-3.webp',
+        'assets/profile-3.webp',
     },
     {
       name: 'Andi',
@@ -69,7 +69,7 @@ const Cards = ({viewportSize}) => {
       caption:
         'Saya baru saja mempelajari Tailwind CSS dan saya harus mengatakan buku ini sangat membantu! Penjelasannya sangat jelas dan terperinci dan saya bisa langsung mengaplikasikannya pada proyek-proyek saya. Terima kasih banyak!',
       image:
-        '/assets/profile-4.webp',
+        'assets/profile-4.webp',
     },
     {
       name: 'Sandra',
@@ -77,7 +77,7 @@ const Cards = ({viewportSize}) => {
       caption:
         'Buku Tailwind CSS ini sangat membantu dalam mempermudah proses styling website. Saya suka bagaimana buku ini membahas konsep dasar terlebih dahulu sebelum membahas topik yang lebih kompleks. Sangat merekomendasikan buku ini!',
       image:
-        '/assets/profile-5.webp',
+        'assets/profile-5.webp',
     },
     {
       name: 'Farhan',
@@ -85,7 +85,7 @@ const Cards = ({viewportSize}) => {
       caption:
         'Sebagai seorang full-stack developer, saya merasa Tailwind CSS sangat membantu dalam mempercepat proses pembuatan antarmuka pengguna. Buku ini memberikan panduan yang sangat jelas dan terperinci sehingga mudah dipahami. Terima kasih atas buku yang luar biasa!',
       image:
-        '/assets/profile-6.webp',
+        'assets/profile-6.webp',
     },
   ];
   
